@@ -1,0 +1,254 @@
+
+/*TABLE OF CONTENT
+01 - Generel
+02 - Menu
+03 - Image 
+04 - Headings
+05 - Footer
+*/
+
+/*---- 01 GENEREL ----*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: ffffff;
+    display: flex;  
+    width: 100%; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.master{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;;
+    margin-bottom: 20px;
+}
+
+
+
+.mastergrid{
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 10px;
+    width: 30%;
+    flex-direction: row;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 92%;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.season{
+    display: flex;
+    min-height: 292px;
+    width: 292px;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.opskrift{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0px 0px;
+}
+
+.picture{
+    width: 25%;
+}
+
+.text{
+    width: 62%;
+    padding: 0 20px;
+}
+
+.readmore{
+    font-style: italic;
+    margin: 10px 0px;
+   
+}
+
+
+.social{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-evenly;
+    width: 40%;
+    align-items: center;
+}
+
+.burger-icon{
+    justify-content: flex-start;
+    width: 100%;
+}
+
+
+/*---- 02 MENU ----*/
+
+.navbar {
+    /* overflow: hidden;
+    display: flex;
+    border-top: 1px solid #D8D3D3;
+    border-bottom: 1px solid #D8D3D3;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 15px 200px;
+    margin-bottom: 40px;
+   */
+  }
+  
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.navbar li {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+  }
+  
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+.dropdown-content a {
+    float: none;
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+.dropdown-content a:hover {
+    background-color: #8ec048;
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /*--- 03 IMAGE ----*/
+
+.season img{
+      width: 100%;
+      height: 100%;
+  }
+
+.opskrift img{
+    width: 100%;
+    height: auto;
+}
+
+/*---- 04 HEADINGSL ----*/
+
+h1{
+    text-transform: uppercase;
+    font-size: 14px;
+    justify-content: center;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+h2{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.streg {
+    line-height: 0.8;
+    text-align: center;
+}
+
+.streg span {
+    display: inline-block;
+    position: relative;
+}
+  
+.streg span:before,
+.streg span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid #D8D3D3;
+    border-top: 0px solid b#D8D3D3;
+    top: 0;
+    min-width: 550px;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.streg span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.streg span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+
+
+/*--- 05 FOOTER --*/
+
+/* footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #000;
+    font-size: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px; */
